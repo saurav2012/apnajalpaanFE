@@ -5,31 +5,31 @@ const signInForm = () => {
       <div className='auth-wrapper container'>
       <div className='auth-inner'>
         <form>
-          <h3>Sign In</h3>
-          <div className='mb-3'>
-            <label>Email Address</label>
+          <h3>Log In</h3>
+          <div className='mb-2'>
+            <label className='mb-1'>Email Address</label>
             <input
             type="email"
             className='form-control'
             placeholder='Enter Email'
             />
           </div>
-          <div className='mb-3'>
-            <label>Password</label>
+          <div className='mb-2'>
+            <label className='mb-1'>Password</label>
             <input
             type="password"
             className="form-control"
             placeholder='Enter Password'
             />
           </div>
-          <div className="mb-3">
+          <div className="mb-2">
             <div className="custom-control custom-checkbox">
               <input
                 type="checkbox"
                 className="custom-control-input"
                 id="customCheck1"
               />
-              <label className="custom-control-label" htmlFor="customCheck1">
+              <label className="custom-control-label m-1" htmlFor="customCheck1">
                 Remember me
               </label>
             </div>
