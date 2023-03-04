@@ -1,10 +1,10 @@
 import React from 'react'
-
+import './SignInForm.css'
 const signInForm = () => {
     return(
-      <div className=' container'>
-      <div className='row justify-content-md-center   bg-light'>
-        <form className='col col-lg-2'>
+      <div className='auth-wrapper container'>
+      <div className='auth-inner'>
+        <form>
           <h3>Sign In</h3>
           <div className='mb-3'>
             <label>Email Address</label>
