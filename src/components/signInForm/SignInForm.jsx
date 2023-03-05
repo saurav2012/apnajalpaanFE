@@ -1,6 +1,6 @@
 import React from 'react'
 import './SignInForm.css'
-const signInForm = () => {
+const SignInForm = () => {
     return(
       <div className='auth-wrapper container'>
       <div className='auth-inner'>
@@ -49,4 +49,4 @@ const signInForm = () => {
     )
   }
 
-export default signInForm
+export default SignInForm
